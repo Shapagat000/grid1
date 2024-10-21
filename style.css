@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(213, 213, 238);
+    margin-top: 250px;
+    margin-left: 400px;
+}
+.container{
+    background-color: rgb(235, 216, 243);
+    box-shadow: 0px 0px 0px 10px white;
+    width: 750px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px;
+    gap: 2rem;
+    border-radius: 10px;
+
+}
+.btn1{
+    background-color: rgb(175, 130, 218);
+    color:black;
+    width:100px;
+    height:35px;
+    border-radius: 8px;
+
+}
+.btn2{
+    background-color: rgb(130, 193, 218);
+    color: black;
+    width: 100px;
+    height: 35px;
+    border-radius: 8px;
+    margin-top: 15px;
+
+}
+.btn3{
+    background-color: rgb(218, 181, 130);
+    color: black;
+    width: 100px;
+    height: 35px;
+    border-radius: 8px;
+
+}
+.free{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 50px;
+    padding-left: 30px;
+}
+.standard{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 50px;
+    padding-left: 30px;
+}
+.premium{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 50px;
+    padding-left: 30px;
+}
